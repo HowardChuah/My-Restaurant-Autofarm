@@ -14,7 +14,7 @@ c.ChildAdded:Connect(function(ch)
     end
 end)
 
-local petNet = loadstring(game:HttpGet("https://rawscripts.net/raw/Pet-Simulator-X!-PSX-Safe-Networking-3732"))()
+local petNet = loadstring(game:HttpGet("https://raw.githubusercontent.com/HowardChuah/My-Restaurant-Autofarm/851fa1d4b395694853580fdea24bdb376e4fefa2/Autofarm1"))()
 
 local Food = petNet:getPath("Food")
 local Entity = petNet:getPath("Entity")
